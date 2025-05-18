@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agent Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>TRAVEL BOOKING</h2>
+      <ul>
+        <li>Dashboard</li>
+        <li>Packages</li>
+        <li>Feedback</li>
+        <li>Settings</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <h2>Dashboard</h2>
+        <div class="user-info">
+          <span>👤 Travel Agent</span>
+        </div>
+      </header>
+
+      <section class="stats">
+        <div class="card">
+          <span class="icon">👜</span>
+          <p><strong>10</strong><br>Total Packages</p>
+        </div>
+        <div class="card">
+          <span class="icon">💬</span>
+          <p><strong>25</strong><br>New Feedback</p>
+        </div>
+      </section>
+
+      <section class="table-section">
+        <h3>Manage Packages</h3>
+        <button class="add-btn">Add New Package</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Package</th>
+              <th>Destination</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Beach Paradise</td>
+              <td>Maldives</td>
+              <td>$1,500</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>Mountain Adventure</td>
+              <td>Switzerland</td>
+              <td>$2,100</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>City Lights</td>
+              <td>New York</td>
+              <td>$2,500</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>Tropical Escape</td>
+              <td>Bali</td>
+              <td>$1,800</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>Desert Journey</td>
+              <td>Morocco</td>
+              <td>$2,200</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="table-section">
+        <h3>Feedback</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Customer</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sarah Johnson</td>
+              <td>Amazing trip! Everything was perfect</td>
+            </tr>
+            <tr>
+              <td>Daniel Brown</td>
+              <td>The package was well-organized, but the hotel could be better</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
